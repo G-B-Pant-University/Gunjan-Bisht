@@ -8,7 +8,7 @@ public class Lab1 {
 
         Random random = new Random();
 
-        // Shuffle students and gender together
+        
         for (int i = students.length - 1; i > 0; i--) {
 
             int j = random.nextInt(i + 1);
@@ -24,7 +24,7 @@ public class Lab1 {
 
         int student = 0;
 
-        // Allot rooms
+        
         for (int i = 0; i < 10; i++) {
 
             for (int j = 0; j < 2; j++) {
@@ -39,7 +39,7 @@ public class Lab1 {
             }
         }
 
-        // Display rooms
+        
         System.out.println("Room Allotment:");
 
         for (int i = 0; i < 10; i++) {
@@ -56,7 +56,7 @@ public class Lab1 {
             System.out.println();
         }
 
-        // Display remaining student
+        
         if (student < students.length) {
 
             System.out.println("\nRemaining Student:");
