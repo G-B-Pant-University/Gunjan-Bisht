@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Lab1 {
+public class lab1 {
 
     static void allotRooms(String[] students, String[] gender) {
 
