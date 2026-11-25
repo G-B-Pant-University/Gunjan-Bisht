@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Lab2 {
+public class lab2 {
 
     static class Student {
         String name, gender;
